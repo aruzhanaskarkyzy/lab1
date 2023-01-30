@@ -44,7 +44,7 @@ ul[class~="menu"] a {
 }
 
 .logo img {
-    background-image: url(banner.png);
+    background-image: url(img/banner.png);
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,7 +99,7 @@ footer {
 }
 
 #submission img {
-    background-image: url(my_photo.jpeg);
+    background-image: url(img/my_photo.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 400px;
