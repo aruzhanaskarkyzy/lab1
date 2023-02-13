@@ -1,0 +1,169 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+    body {
+        width: 100%;
+        margin: 0;
+        background-color: deeppink;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #submission img {
+        background-size: cover !important;
+        background-repeat: repeat !important;
+        background-position: center;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    #submission h3 {
+        text-align: center;
+    }
+
+    #submission p:nth-of-type(2) {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 1vh 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets */
+    body {
+        width: 70vw;
+        margin: auto;
+        background-color: orange;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        width: 70vw;
+        margin: auto;
+        font-size: medium;
+        background-color: #e9f5f9;
+    }
+}
+
+html,body {
+    font-family: Arial, Helvetica, Sans-serif;
+}
+
+li {
+    padding-bottom: 2vh;
+}
+
+#submission ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    text-align: center;
+    width: 80%;
+}
+
+#submission ul:after {
+    font-size: 2rem;
+    font-family: monospace;
+    content: 'Aruzhan Askarkyzy';
+}
+
+ul[class~="menu"] a {
+    color: gray;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+#grading table {
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 10vh;
+    margin: 6vh 0px 8vh 0px;
+}
+
+.logo img {
+    background-image: url(img/banner.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    width: 100%;
+}
+
+#deadline li:first-child {
+    background-color: yellow;
+}
+
+#deadline li:nth-child(2) {
+    background-color: red;
+}
+
+#task p {
+
+    /* margin: 100px; */
+}
+
+#task img {
+    object-fit: cover;
+    width: 100%;
+    padding-bottom: 1vh;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 60px 0;
+    border: 5px solid gray;
+}
+
+td {
+    padding: 0.5em 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#submission p:nth-of-type(2) {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 1vh 0;
+}
+
+#submission img {
+    background-image: url(img/my_photo.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-height: 60vh;
+    max-width: 40vw;
+    width: 40vw;
+    height: 50vh;
+}
+
+.banner {
+    font-size: 1.5em;
+    text-align: center;
+}
+
